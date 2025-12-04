@@ -1,0 +1,77 @@
+.poll{
+    padding: 20px;
+    margin-top: 20px;
+    width: 30%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.poll-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.create-poll-top{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #003cb4;
+    color: whitesmoke;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 15px;
+}
+.question label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.question-input{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #201f1f;
+border-radius: 5px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.option-wrap{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.option-input{
+height: 25px;
+border: 2px solid #201f1f;
+border-radius: 5px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.submit-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #003cb4;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #002a8c;
+}
+.nav-link:hover{
+    color: #dadada;
+}
